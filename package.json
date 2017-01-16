@@ -1,0 +1,27 @@
+{
+  "name": "storefrommaster",
+  "version": "1.0.0",
+  "description": "store cache for multi process. every child process can access data from master",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies" : {
+      "lru-cache": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylinzhao/storeFromMaster.git"
+  },
+  "keywords": [
+    "cache",
+    "multiprocess",
+    "memory"
+  ],
+  "author": "kylinzhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylinzhao/storeFromMaster/issues"
+  },
+  "homepage": "https://github.com/kylinzhao/storeFromMaster#readme"
+}
